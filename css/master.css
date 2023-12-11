@@ -1,0 +1,113 @@
+/* Start Global Rules */
+:root
+{
+    --main-color:#ff3292;
+    --second-color :#fdfffd;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)),url(/images/background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    /* margin: 10px auto; */
+}
+
+/* End Global Rules */
+/* Start Header Section */
+.container header
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container header img
+{
+    width:260px;
+}
+.container nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container nav ul 
+{
+    list-style: none ;
+    display: flex;
+}
+.container ul li 
+{
+    padding: 10px 50px;
+}
+.container a
+{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--second-color);
+}
+.container nav .btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:15px 20px;
+    margin-left: 40px;
+    background-color: var(--main-color);
+    border:none;
+    border-radius:5px ;
+    color: var(--second-color);
+}
+.container nav .btn img
+{
+    width: 20px;
+    margin-right:20px;
+}
+/* End Header Section */
+
+/* Start Main Secion */
+.container .contnet
+{
+    position: absolute;
+    top: 50%;
+}
+.container .contnet h1
+{
+    color: var(--second-color);
+    font-size: xxx-large;
+    margin: 10px auto;
+}
+.container .contnet p
+{
+    color: var(--second-color);
+    margin: 20px auto;
+}
+.container .contnet form input
+{
+    width: 70%;
+    color: var(--second-color);
+    padding: 20px;
+}
+.container .contnet form button
+{
+    background-color: var(--main-color);
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 5px;
+    color: #fdfffd;
+    transform: translateX(-120px);
+}
+
+/* End Main Secion */
